@@ -8,14 +8,15 @@ This is a Jupyter notebook-based course repo for "AI Agents in LangGraph" (DeepL
 
 ## Running Notebooks
 
-Open and run with Jupyter:
+Open notebooks directly in VS Code (recommended). VS Code's built-in Jupyter support handles cell execution, outputs, and kernel selection without a separate Jupyter server.
+
+1. Open the repo folder in VS Code.
+2. Open any `.ipynb` file — VS Code will prompt to select a Python kernel.
+3. Run cells with **Shift+Enter** or the ▶ button.
+
+If you prefer the classic browser UI, you can still launch it with:
 ```bash
 jupyter notebook
-```
-
-Or a specific notebook:
-```bash
-jupyter notebook Lesson_1_Student.ipynb
 ```
 
 ## Environment Setup
@@ -45,7 +46,7 @@ The LLM backend is **Cohere** (native SDK and LangChain integration):
 ### Model mapping
 | Use case | Model |
 |----------|-------|
-| Lightweight / fast | `command-r` |
+| Lightweight / fast | `command-r7b-12-2024` |
 | Complex reasoning | `command-a-03-2025` |
 
 ### Key LangGraph pattern (L2 & L4)
