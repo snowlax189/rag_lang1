@@ -1,0 +1,21 @@
+# LLM / API clients
+openai
+cohere
+langchain-core
+langchain-cohere
+langchain-community
+
+# Agent orchestration
+langgraph
+
+# Search & scraping (Lesson 3)
+tavily-python
+duckduckgo-search
+requests
+beautifulsoup4
+
+# Utilities
+python-dotenv
+httpx
+pygments
+ipython
